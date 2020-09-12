@@ -3,7 +3,7 @@ import { getSecret } from './key.js'
 document.addEventListener('DOMContentLoaded', async function (event) {
     // your code here
 
-    alert('page loaded')
+    // alert('page loaded')
 
     let keys = await getSecret()
 
@@ -14,6 +14,4 @@ document.addEventListener('DOMContentLoaded', async function (event) {
     )
         .then((response) => response.json())
         .then((data) => console.log(data))
-
-    document.getElementById('testID').style.color = 'blue'
 })

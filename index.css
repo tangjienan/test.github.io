@@ -1,3 +1,8 @@
-.test {
-    color: blue;
+body,
+html {
+    height: 100%;
+    display: grid;
+}
+.center-me {
+    margin: auto;
 }

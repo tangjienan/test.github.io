@@ -1,0 +1,95 @@
+/* fix header, fix is always relative to the document */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9000;
+}
+
+body {
+    padding-top: 80px;
+}
+
+/* width and height not affected by border and padding */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.button {
+    top: 55px;
+    width: 65px;
+    color: black;
+    position: fixed;
+    right: 50%;
+}
+
+.button span,
+.button span::before,
+.button span::after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 0;
+    content: '';
+    border-top: 3px solid black;
+}
+
+.button span::before {
+    transform: translateY(-12px);
+}
+
+.button span::after {
+    transform: translateY(6px);
+}
+
+.headerButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 80%;
+    z-index: 20;
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images div:nth-child(1) {
+    width: 15%;
+    position: relative;
+}
+
+.images div:nth-child(2) {
+    width: 25%;
+    position: relative;
+    z-index: 0;
+}
+
+.images div:nth-child(3) {
+    width: 15%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.overlapText {
+    text-align: center;
+    margin-bottom: -250px;
+    line-height: 1.8;
+    z-index: 12;
+    position: relative;
+}
