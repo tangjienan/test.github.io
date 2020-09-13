@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: grid;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+/* .block:nth-child(odd) {
+    color: red;
+    background-color: aqua;
+}
+
+.block:nth-child(even) {
+    color: red;
+    background-color: darkgreen;
+} */
+
+.topBorder {
+    border-top: 3px solid #000000;
+}
+
+.downBorder {
+    border-bottom: 3px solid #000000;
+}
+
+.leftBorder {
+    border-left: 3px solid #000000;
+}
+
+.rightBorder {
+    border-right: 3px solid #000000;
+}
