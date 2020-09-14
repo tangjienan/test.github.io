@@ -51,6 +51,10 @@ html {
     margin-left: 10px;
 }
 
+.first_banner {
+    display: flex
+}
+
 
 
 ::-webkit-scrollbar {
