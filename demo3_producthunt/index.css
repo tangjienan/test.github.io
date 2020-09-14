@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    width: 100%;
+    position: relative;
+}
+
+.main {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ph_icon_left {
+    position: fixed;
+    margin: 40px 0 0 40px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.icon_right {
+    position: fixed;
+    margin: 40px 40px 0 0px;
+    align-items: center;
+    top: 0;
+    right: 0;
+    text-align: end;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.producthunt_a7e1b {
+    margin-left: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}

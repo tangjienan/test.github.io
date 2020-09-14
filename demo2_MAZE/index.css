@@ -21,7 +21,7 @@ body {
     width: 50%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-template-columns: repeat(20, minmax(0, 1fr));
 }
 
 /* .block:nth-child(odd) {

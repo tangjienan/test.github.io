@@ -238,8 +238,6 @@ function convertMazeValueToBorderValue(val) {
         right: (val & 1) != 0,
     }
 
-    console.log(Maze.printCell(val))
-    console.log(res)
     return res
 }
 
@@ -254,7 +252,7 @@ function playGames(width) {
 document.addEventListener('DOMContentLoaded', async function (event) {
     // create maze div
 
-    let width = 10
+    let width = 20
 
     let maze = playGames(width)
 
