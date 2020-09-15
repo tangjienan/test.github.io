@@ -61,3 +61,11 @@ html {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
 }
+
+.grid_1d11a {
+    flex-basis: 350px;
+    display: flex;
+    flex-direction:column;
+    height:285px;
+    margin: 10px;
+}
