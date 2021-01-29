@@ -1,3 +1,46 @@
-.test {
-    color: aqua;
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px
+}
+
+
+#sticky-header {
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    margin: 0px;
+    top: 0px;
+    height: 80px
+}
+
+#scrollable-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+
+#scrollable-content-left {
+    background-color: yellow;
+    flex: 3 1 auto
+}
+
+#scrollable-content-right {
+    background-color: green;
+    margin-left: 15px;
+    flex: 1 1 auto;
+}
+
+
+#container {
+    width: 100%;
 }
