@@ -8,7 +8,7 @@ module.exports = {
         main: './test/test2.ts', // main ts file
     },
     output: {
-        path: path.resolve(__dirname, './test'),
+        path: path.resolve(__dirname, './Reddit'),
         filename: '[name]-bundle.js', // <--- Will be compiled to this single file
     },
     resolve: {
